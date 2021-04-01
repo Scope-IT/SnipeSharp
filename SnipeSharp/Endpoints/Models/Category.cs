@@ -42,7 +42,7 @@ namespace SnipeSharp.Endpoints.Models
 
         [JsonProperty("eula")]
         [RequestHeader("eula")]
-        public bool eula { get; set; }
+        public string eula { get; set; }
 
         [JsonProperty("checkin_email")]
         [RequestHeader("checkin_email")]
